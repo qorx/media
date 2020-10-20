@@ -39,10 +39,10 @@ RUN apk --update upgrade && \
  
 # Usage
 
-[Setup media library](https://github.com/qor/media#how-to-setup-a-media-library-and-use-media-box) and add below code, then it will compress jpg/png and generate webp for you.
+[Setup media library](https://github.com/qorx/media#how-to-setup-a-media-library-and-use-media-box) and add below code, then it will compress jpg/png and generate webp for you.
 
 ```
-import "github.com/qor/media/handlers/vips"
+import "github.com/qorx/media/handlers/vips"
 
 vips.UseVips(vips.Config{EnableGenerateWebp: true})
 ```
